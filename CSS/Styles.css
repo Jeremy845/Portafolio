@@ -1,0 +1,7 @@
+.header { display: flex; justify-content: center; }
+
+.header .header_text { font-family: "Roboto Mono", monospace; font-size: 15px; font-weight: medium; margin-top: 3%; margin-right: 30%; }
+
+.header .header_text .header_myname { font-family: "Bangers", cursive; font-size: 36px; }
+
+.header .header_img .img { height: 200px; }

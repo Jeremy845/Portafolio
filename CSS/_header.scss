@@ -1,0 +1,29 @@
+$font_type: 'Roboto Mono', monospace;
+$font_title:  'Bangers', cursive;
+
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: red;
+    .header_text{
+    max-width: 300px;
+      font-family: $font_type;
+      font-size: 15px;
+      font-weight: medium;
+        margin-top: 3%;
+        margin-right: 30%;
+      
+        .header_myname{
+            background: green;
+            
+            font-family: $font_title;
+            font-size: 36px;
+        }
+    }
+  
+    }
+    }
+   
