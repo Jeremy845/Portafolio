@@ -1,23 +1,30 @@
 $font_type: 'Roboto Mono', monospace;
 $font_title:  'Bangers', cursive;
 
-.header{
-    
+.main{
+  
+  margin-top: 5%;
+  max-width: 900px;
+  margin-left: 20%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: red;
+    
     .header_text{
-    max-width: 300px;
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+      
+  
       font-family: $font_type;
       font-size: 15px;
       font-weight: medium;
         margin-top: 3%;
-        margin-right: 30%;
-      
+        margin-right: 20%;
+      max-width: 700px;
         .header_myname{
-            background: green;
+            
             
             font-family: $font_title;
             font-size: 36px;
@@ -25,5 +32,12 @@ $font_title:  'Bangers', cursive;
     }
   
     }
+    .icon_nav{
+      max-width: 700px;
+      margin-top: 5%;
+      margin-left: 23%;
+      display: flex;
+      justify-content: space-evenly;
     }
+    
    

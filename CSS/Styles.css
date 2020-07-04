@@ -1,7 +1,7 @@
-.header { display: flex; justify-content: center; }
+.main { margin-top: 5%; max-width: 900px; margin-left: 20%; display: flex; align-items: center; }
 
-.header .header_text { font-family: "Roboto Mono", monospace; font-size: 15px; font-weight: medium; margin-top: 3%; margin-right: 30%; }
+.main .header_text { display: flex; align-items: center; justify-content: space-around; flex-direction: column; flex-wrap: wrap; font-family: "Roboto Mono", monospace; font-size: 15px; font-weight: medium; margin-top: 3%; margin-right: 20%; max-width: 700px; }
 
-.header .header_text .header_myname { font-family: "Bangers", cursive; font-size: 36px; }
+.main .header_text .header_myname { font-family: "Bangers", cursive; font-size: 36px; }
 
-.header .header_img .img { height: 200px; }
+.icon_nav { max-width: 700px; margin-top: 5%; margin-left: 23%; display: flex; justify-content: space-evenly; }
