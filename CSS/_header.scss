@@ -8,11 +8,12 @@ $font_title:  'Bangers', cursive;
   margin-left: 20%;
     display: flex;
     align-items: center;
+  
     
     .header_text{
       display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
     flex-wrap: wrap;
       
@@ -33,11 +34,55 @@ $font_title:  'Bangers', cursive;
   
     }
     .icon_nav{
-      max-width: 700px;
+      max-width: 50%;
       margin-top: 5%;
-      margin-left: 23%;
+      margin-left: 20%;
       display: flex;
       justify-content: space-evenly;
     }
-    
+    .division-line{
+      display: flex;
+      background-color: black;
+      height: 1px;
+      
+      margin-left: 20%;
+     // margin: auto;
+      margin-top: 3%;
+      width: 50%;
+    }
+    #info{
+      font-family: $font_type;
+      display: flex;
+      max-width: 50%;
+      margin-left: 20%;
+      
+     
+    }
+
+    //vista desde moviles
+     
+    @media only screen and (max-width: 660px){
+      .division-line{
+        margin-left: 0%;
+        width: 100%;
+      }
+      .icon_nav{
+        margin: auto;
+          justify-content: space-around;
+          padding: 0%;
+          margin-top: 5;
+
+          max-width: 100%;
+      }
+      .main{
+        padding-left: 5%;
+        margin-right: 20%;
+        flex-direction: column-reverse;
+        text-align: center;
+        
+        
+        
+      }
+
+    }
    
