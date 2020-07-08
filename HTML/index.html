@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/normalize.css">
     <link rel="stylesheet" href="../CSS/Styles.css">
+   <script src="/JS/jquery-3.5.1.min.js"></script>
+    
+    
  
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Mono:wght@100;300&display=swap" rel="stylesheet">
-
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <title>Portafolio Jeremy Alvarez</title>
 </head>
 <body>
     
+    <div class="switch_cont">
+        <button class="switch" id="switch">
+            <span><i class="fas fa-sun"></i></span>
+            <span><i class="fas fa-moon"></i></span>
+        </button>
+    </div>
             <section class="main">
+             
                 <article class="header_text">
+                    
                     <p class="header_myname">Jeremy <br> Alvarez  </p>
                     <p>Software Enginner</p>
                     <p>Soy un estudiante de ultimo <br>
@@ -22,32 +33,48 @@
                         y los videojuegos. Fan del modo oscuro!</p>
                      
                      </article>
+                     
                      <article class="header_img">
-                        <img src="../Assets/foto1.png" height="300px" width="250px" alt="">
+                        <img id="foto_perfil" src="../Assets/foto1.png" height="300px" width="250px" alt="">
                     </article>
                   
               </section>
-              <div class="division-line">.</div>
+              <div class="division-line"></div>
               <section class="icon_nav">
-                  <a href="" class="hvr-pulse-grow"> 
-                      <img src="../Assets/code_logo.png" width="50px" height="50px" alt=""></a>
-               <a href="" class="hvr-bob">
-                <img src="../Assets/logo_proyectos.png" width="50px" height="50px" alt="">
+                  <a href="" id="info_skills"  class="hvr-pulse-grow bio_toggler"> 
+                      <img id="info_skills-img" src="../Assets/code_logo.png" width="50px" height="50px" alt=""></a>
+              
+                      <a href="" id="info_projects" class="hvr-bob bio_toggler">
+                <img id="info_projects-img" src="../Assets/logo_proyectos.png" width="50px" height="50px" alt="">
 
                </a>
-               <a href="" class="hvr-buzz">
-                <img src="../Assets/Hobbies.png" width="50px" height="50px" alt="">
+               <a href="" class="hvr-buzz bio_toggler">
+                <img id="info_hobbies-img" src="../Assets/Hobbies.png" width="50px" height="50px" alt="">
 
                </a>
-               <a href="" class="hvr-wobble-horizontal">
-                <img src="../Assets/github.png" width="50px" height="50px" alt="">
+               <a href="" class="hvr-wobble-horizontal bio_toggler">
+                <img id="info_github-img" src="../Assets/github.png" width="50px" height="50px" alt="">
 
                </a>
                </section>
                <section id="info" class="">
-             
+                
+                    <article  id="info_skillstxt"  class="info_skillstxt">
+                        <p >SKILLS ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quam reprehenderit, eaque magnam laborum soluta assumenda culpa recusandae reiciendis porro neque maxime ad nemo fuga! Ad, animi nobis? Fuga, dignissimos.</p>
+                    </article>
+                    <article class="info_projects">
+                        <p>PROYECTSm ipsum dolor sit, amet consectetur adipisicing elit. Officiis, rem ex! Ex quam reiciendis numquam delectus similique corrupti ipsa fugit vero adipisci ullam omnis, aut sed recusandae laudantium dolor quaerat?</p>
+                    </article>
+                    <article id="info_hobbies" class="info_hobbies">
+                        <p>HOBBIES ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet rem repudiandae illo totam quo repellendus quis adipisci magni, debitis atque odit unde dolores, eos repellat, esse velit cum officia.</p>
+
+                    </article>
+                    <article id="info_contacts" class="info_contact">
+                        <p>CONTACT ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto sequi soluta placeat unde voluptas, ut dolorum ex dolore aut deleniti saepe dolores accusamus, nostrum molestias eius? Ab, ut nisi?</p>
+                    </article>
+
 
                </section>
-
+               <script src="/JS/functions.js"></script>
 </body>
 </html>

@@ -1,17 +1,59 @@
+body { background-color: #F0FCFC; transition: .3s ease all; }
+
+body.dark { background: #030842; }
+
+.switch_cont { display: flex; justify-content: flex-end; margin: auto; }
+
 .main { margin-top: 5%; max-width: 900px; margin-left: 20%; display: flex; align-items: center; }
 
 .main .header_text { display: flex; align-items: center; justify-content: space-evenly; flex-direction: column; flex-wrap: wrap; font-family: "Roboto Mono", monospace; font-size: 15px; font-weight: medium; margin-top: 3%; margin-right: 20%; max-width: 700px; }
 
+body.dark .main .header_text p { color: whitesmoke; }
+
 .main .header_text .header_myname { font-family: "Bangers", cursive; font-size: 36px; }
+
+body.dark .main .header_img { transition: .3s ease all; }
+
+body.dark .main .header_img #foto_perfil { box-sizing: border-box; width: 250px; height: 300px; content: url(/Assets/fotoperfil_darkmode.png); }
 
 .icon_nav { max-width: 50%; margin-top: 5%; margin-left: 20%; display: flex; justify-content: space-evenly; }
 
+body.dark .icon_nav #info_skills-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/code_logo_darkmode.png); }
+
+body.dark .icon_nav #info_projects-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/logo_proyectos_darkmode.png); }
+
+body.dark .icon_nav #info_hobbies-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/Hobbies_darkmode.png); }
+
+body.dark .icon_nav #info_github-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/github_darkmode.png); }
+
 .division-line { display: flex; background-color: black; height: 1px; margin-left: 20%; margin-top: 3%; width: 50%; }
+
+body.dark .division-line { background-color: whitesmoke; }
 
 #info { font-family: "Roboto Mono", monospace; display: flex; max-width: 50%; margin-left: 20%; }
 
+#info .info_skillstxt { display: none; }
+
+#info .info_projects { display: none; }
+
+#info .info_hobbies { display: none; }
+
+#info .info_contact { display: none; }
+
+#info .show { display: block; }
+
+.switch { background: orange; border-radius: 1000px; border: none; position: relative; cursor: pointer; display: flex; outline: none; }
+
+.switch::after { content: ""; display: block; width: 30px; height: 30px; position: absolute; background: #F1F1F1; top: 0; left: unset; right: 0; border-radius: 100px; transition: .3s ease all; box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2); }
+
+.switch.active { background: black; color: #000; }
+
+.switch.active::after { right: unset; left: 0; }
+
+.switch span { width: 30px; height: 30px; line-height: 30px; display: block; background: none; color: #fff; }
+
 @media only screen and (max-width: 660px) { .division-line { margin-left: 0%; width: 100%; }
-  .icon_nav { margin: auto; justify-content: space-around; padding: 0%; margin-top: 5; max-width: 100%; }
+  .icon_nav { margin: auto; justify-content: space-around; padding: 0%; margin-top: 10px; max-width: 100%; }
   .main { padding-left: 5%; margin-right: 20%; flex-direction: column-reverse; text-align: center; } }
 
 /* Bob */
