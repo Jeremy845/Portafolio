@@ -14,8 +14,6 @@ body.dark .main .header_text p { color: whitesmoke; }
 
 body.dark .main .header_img { transition: .3s ease all; }
 
-body.dark .main .header_img #foto_perfil { box-sizing: border-box; width: 250px; height: 300px; content: url(../Assets/fotoperfil_darkmode.png); }
-
 .icon_nav { max-width: 50%; margin-top: 5%; margin-left: 20%; display: flex; justify-content: space-evenly; }
 
 body.dark .icon_nav #info_skills-img { box-sizing: border-box; width: 50px; height: 50px; content: url(../Assets/code_logo_darkmode.png); }
@@ -29,18 +27,6 @@ body.dark .icon_nav #info_github-img { box-sizing: border-box; width: 50px; heig
 .division-line { display: flex; background-color: black; height: 1px; margin-left: 20%; margin-top: 3%; width: 50%; }
 
 body.dark .division-line { background-color: whitesmoke; }
-
-#info { font-family: "Roboto Mono", monospace; display: flex; max-width: 50%; margin-left: 20%; }
-
-#info .info_skillstxt { display: none; }
-
-#info .info_projects { display: none; }
-
-#info .info_hobbies { display: none; }
-
-#info .info_contact { display: none; }
-
-#info .show { display: block; }
 
 .switch { background: orange; border-radius: 1000px; border: none; position: relative; cursor: pointer; display: flex; outline: none; }
 
@@ -110,3 +96,39 @@ body.dark .division-line { background-color: whitesmoke; }
 .hvr-wobble-horizontal { display: inline-block; vertical-align: middle; transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
 
 .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active { animation-name: hvr-wobble-horizontal; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 1; }
+
+/* ------------------------- */
+/* POPUP */
+/* ------------------------- */
+.overlay { background: rgba(0, 0, 0, 0.3); position: fixed; top: 0; bottom: 0; left: 0; right: 0; align-items: center; justify-content: center; display: flex; visibility: hidden; }
+
+.overlay.active_pop { visibility: visible; }
+
+.popup { background: #F8F8F8; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); border-radius: 3px; font-family: "Roboto Mono", monospace; padding: 20px; text-align: center; width: 600px; transition: .3s ease all; transform: scale(0.7); opacity: 0; }
+
+.popup .btn-cerrar-popup { font-size: 16px; line-height: 16px; display: block; text-align: right; transition: .3s ease all; color: #BBBBBB; }
+
+.popup .btn-cerrar-popup:hover { color: #000; }
+
+.popup h3 { font-family: "Bangers", cursive; font-size: 36px; font-weight: 600; margin-bottom: 10px; opacity: 0; text-align: center; }
+
+.popup h5 { font-family: "Roboto Mono", monospace; font-size: 16px; font-weight: 300; margin-bottom: 40px; opacity: 0; }
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.active_pop { transform: scale(1); opacity: 1; }
+
+.popup.active_pop h3 { animation: entradaTitulo .8s ease .5s forwards; }
+
+.popup.active_pop h5 { animation: entradaSubtitulo .8s ease .5s forwards; }
+
+@keyframes entradaTitulo { from { opacity: 0;
+    transform: translateY(-25px); }
+  to { transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes entradaSubtitulo { from { opacity: 0;
+    transform: translateY(25px); }
+  to { transform: translateY(0);
+    opacity: 1; } }

@@ -55,13 +55,7 @@ body{
     .header_img{
       body.dark &{
         transition: .3s ease all;
-        #foto_perfil{
-          box-sizing:border-box;
-          width: 250px;
-          height: 300px;
-          content: url(../Assets/fotoperfil_darkmode.png);
-        }
-       
+  
       }
     
     }
@@ -113,28 +107,7 @@ body{
         background-color: whitesmoke;
       }
     }
-    #info{
-      font-family: $font_type;
-      display: flex;
-      max-width: 50%;
-      margin-left: 20%;
-      .info_skillstxt{
-       display: none;
-      }
-      .info_projects{
-       display: none;
-      }
-      .info_hobbies{
-       display: none;
-      }
-      .info_contact{
-     display: none;
-      }
-      .show{
-        display: block;
-      }
-     
-    }
+  
     // ----- ----- ----- ----- ----- Switch ----- ----- ----- ----- ----- 
 .switch {
 	background: orange;
