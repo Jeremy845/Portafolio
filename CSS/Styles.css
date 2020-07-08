@@ -1,6 +1,6 @@
 body { background-color: #F0FCFC; transition: .3s ease all; }
 
-body.dark { background: #030842; }
+body.dark { background: #000A1A; }
 
 .switch_cont { display: flex; justify-content: flex-end; margin: auto; }
 
@@ -14,7 +14,7 @@ body.dark .main .header_text p { color: whitesmoke; }
 
 body.dark .main .header_img { transition: .3s ease all; }
 
-body.dark .main .header_img #foto_perfil { box-sizing: border-box; width: 250px; height: 300px; content: url(/Assets/fotoperfil_darkmode.png); }
+body.dark .main .header_img #foto_perfil { box-sizing: border-box; width: 250px; height: 300px; content: url(../Assets/fotoperfil_darkmode.png); }
 
 .icon_nav { max-width: 50%; margin-top: 5%; margin-left: 20%; display: flex; justify-content: space-evenly; }
 
