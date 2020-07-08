@@ -59,7 +59,7 @@ body{
           box-sizing:border-box;
           width: 250px;
           height: 300px;
-          content: url(/Assets/fotoperfil_darkmode.png);
+          content: url(../Assets/fotoperfil_darkmode.png);
         }
        
       }
@@ -78,25 +78,25 @@ body{
           box-sizing:border-box;
           width: 50px;
           height: 50px;
-          content: url(/Assets/code_logo_darkmode.png);
+          content: url(../Assets/code_logo_darkmode.png);
         }
         #info_projects-img{
           box-sizing:border-box;
           width: 50px;
           height: 50px;
-          content: url(/Assets/logo_proyectos_darkmode.png);
+          content: url(../Assets/logo_proyectos_darkmode.png);
         }
         #info_hobbies-img{
           box-sizing:border-box;
           width: 50px;
           height: 50px;
-          content: url(/Assets/Hobbies_darkmode.png);
+          content: url(../Assets/Hobbies_darkmode.png);
         }
         #info_github-img{
           box-sizing:border-box;
           width: 50px;
           height: 50px;
-          content: url(/Assets/github_darkmode.png);
+          content: url(../Assets/github_darkmode.png);
         }
       }
     }

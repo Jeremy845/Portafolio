@@ -18,13 +18,13 @@ body.dark .main .header_img #foto_perfil { box-sizing: border-box; width: 250px;
 
 .icon_nav { max-width: 50%; margin-top: 5%; margin-left: 20%; display: flex; justify-content: space-evenly; }
 
-body.dark .icon_nav #info_skills-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/code_logo_darkmode.png); }
+body.dark .icon_nav #info_skills-img { box-sizing: border-box; width: 50px; height: 50px; content: url(../Assets/code_logo_darkmode.png); }
 
-body.dark .icon_nav #info_projects-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/logo_proyectos_darkmode.png); }
+body.dark .icon_nav #info_projects-img { box-sizing: border-box; width: 50px; height: 50px; content: url(../Assets/logo_proyectos_darkmode.png); }
 
-body.dark .icon_nav #info_hobbies-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/Hobbies_darkmode.png); }
+body.dark .icon_nav #info_hobbies-img { box-sizing: border-box; width: 50px; height: 50px; content: url(../Assets/Hobbies_darkmode.png); }
 
-body.dark .icon_nav #info_github-img { box-sizing: border-box; width: 50px; height: 50px; content: url(/Assets/github_darkmode.png); }
+body.dark .icon_nav #info_github-img { box-sizing: border-box; width: 50px; height: 50px; content: url(../Assets/github_darkmode.png); }
 
 .division-line { display: flex; background-color: black; height: 1px; margin-left: 20%; margin-top: 3%; width: 50%; }
 
