@@ -1,113 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/normalize.css">
-    <link rel="stylesheet" href="../CSS/Styles.css">
-   <script src="/JS/jquery-3.5.1.min.js"></script>
-    
-    
- 
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Mono:wght@100;300&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <title>Portafolio Jeremy Alvarez</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/normalize.css">
+  <link rel="stylesheet" href="../CSS/Styles.css">
+  <script src="/JS/jquery-3.5.1.min.js"></script>
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Mono:wght@100;300&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <title>Portafolio Jeremy Alvarez</title>
 </head>
+
 <body>
-    
-    <div class="switch_cont">
-        <button class="switch" id="switch">
-            <span><i class="fas fa-sun"></i></span>
-            <span><i class="fas fa-moon"></i></span>
-        </button>
+
+  <div class="switch_cont">
+    <button class="switch" id="switch">
+      <span><i class="fas fa-sun"></i></span>
+      <span><i class="fas fa-moon"></i></span>
+    </button>
+  </div>
+  <section class="main">
+
+    <article class="header_text">
+
+      <p class="header_myname">Jeremy <br> Alvarez </p>
+      <p>Software Enginner</p>
+      <p>Soy un estudiante de ultimo <br>
+        año de la carrera de informática <br>
+        empresarial. Me encanta la tecnología <br>
+        y los videojuegos. Fan del modo oscuro!</p>
+
+    </article>
+
+    <article class="header_img">
+      <img id="foto_perfil" src="../Assets/foto1.png" height="300px" width="250px" alt="">
+    </article>
+
+  </section>
+  <div class="division-line"></div>
+  <section class="icon_nav">
+    <a javascript:void(0) id="info_skills" class="hvr-pulse-grow ">
+      <img id="info_skills-img" src="../Assets/code_logo.png" width="50px" height="50px" alt=""></a>
+
+    <a javascript:void(0) id="info_projects" class="hvr-bob ">
+      <img id="info_projects-img" src="../Assets/logo_proyectos.png" width="50px" height="50px" alt="">
+
+    </a>
+    <a javascript:void(0) id="info_hobbies" class="hvr-buzz ">
+      <img id="info_hobbies-img" src="../Assets/Hobbies.png" width="50px" height="50px" alt="">
+
+    </a>
+    <a javascript:void(0) id="info_github" class="hvr-wobble-horizontal ">
+      <img id="info_github-img" src="../Assets/github.png" width="50px" height="50px" alt="">
+
+    </a>
+
+  </section>
+  <section id="" class="">
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+        <h3>SKILLS</h3>
+        <h5>Me encanta programar, tengo conocimientos en Java, C# y PHP,
+          ademas poseo conocimientos en metodologías ágiles como SCRUM.
+          Siempre estoy en busca de aprender y superarme. </h5>
+
+      </div>
     </div>
-            <section class="main">
-             
-                <article class="header_text">
-                    
-                    <p class="header_myname">Jeremy <br> Alvarez  </p>
-                    <p>Software Enginner</p>
-                    <p>Soy un estudiante de ultimo <br>
-                        año de la carrera de informática <br>
-                        empresarial. Me encanta la tecnología <br>
-                        y los videojuegos. Fan del modo oscuro!</p>
-                     
-                     </article>
-                     
-                     <article class="header_img">
-                        <img id="foto_perfil" src="../Assets/foto1.png" height="300px" width="250px" alt="">
-                    </article>
-                  
-              </section>
-              <div class="division-line"></div>
-              <section class="icon_nav">
-                  <a  javascript:void(0) id="info_skills"  class="hvr-pulse-grow "> 
-                      <img id="info_skills-img" src="../Assets/code_logo.png" width="50px" height="50px" alt=""></a>
-              
-                      <a javascript:void(0) id="info_projects" class="hvr-bob ">
-                <img id="info_projects-img" src="../Assets/logo_proyectos.png" width="50px" height="50px" alt="">
+    <div class="overlay" id="overlay-projects">
+      <div class="popup" id="popup-projects">
+        <a href="#" id="btn-cerrar-popup-1" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+        <h3>Proyectos</h3>
+        <h5>Recientemente diseñamos una pagina para el curso de Multimedios de mi carrera
+          <br>
+          <a href="https://jeremy845.github.io/Multimedios/HTML/#">Yo me apunto! </a>
+        </h5>
 
-               </a>
-               <a javascript:void(0) id="info_hobbies" class="hvr-buzz ">
-                <img id="info_hobbies-img" src="../Assets/Hobbies.png" width="50px" height="50px" alt="">
+      </div>
+    </div>
+    <div class="overlay" id="overlay-hobbies">
+      <div class="popup" id="popup-hobbies">
+        <a href="#" id="btn-cerrar-popup-2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+        <h3>Hobbies</h3>
+        <h5>
+        </h5>
 
-               </a>
-               <a javascript:void(0) id="info_github" class="hvr-wobble-horizontal ">
-                <img id="info_github-img" src="../Assets/github.png" width="50px" height="50px" alt="">
+      </div>
+    </div>
+    <div class="overlay" id="overlay-github">
+      <div class="popup" id="popup-github">
+        <a href="#" id="btn-cerrar-popup-3" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+        <h3>Contacto</h3>
+        <h5>Correo: alvarezjeremy50@gmail.com <br>
+          Github: <a href="https://github.com/Jeremy845">https://github.com/Jeremy845</a>
+          <br>
+          Correo UCR: yeremy.alvarez@ucr.ac.cr <br>
+          Instagram: @jere.ago
+        </h5>
 
-               </a>
-               
-               </section>
-               <section id="" class="">
-                <div class="overlay" id="overlay">
-                    <div class="popup" id="popup">
-                      <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                      <h3>SKILLS</h3>
-                      <h5>Me encanta programar, tengo conocimientos en Java, C# y PHP, 
-                        ademas poseo conocimientos en metodologías ágiles como SCRUM. 
-                        Siempre estoy en busca de aprender y superarme. </h5>
-                    
-                    </div>
-                  </div>
-                  <div class="overlay" id="overlay-projects">
-                    <div class="popup" id="popup-projects">
-                      <a href="#" id="btn-cerrar-popup-1" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                      <h3>Proyectos</h3>
-                      <h5>Recientemente diseñamos una pagina para el curso de Multimedios de mi carrera
-                          <br>
-                        <a href="https://jeremy845.github.io/Multimedios/HTML/#">Yo me apunto! </a>
-                        </h5>
-                    
-                    </div>
-                  </div>
-                  <div class="overlay" id="overlay-hobbies">
-                    <div class="popup" id="popup-hobbies">
-                      <a href="#" id="btn-cerrar-popup-2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                      <h3>Hobbies</h3>
-                      <h5>Me encantan los videojuegos, la tecnología y la musica. <br>
-                        Mis juegos favoritos son: Horizon zero dawn, Uncharted, Counter Strike, Overwatch. <br>
-                        Toco la guitarra para mi y para mi gata ♥. 
-                        </h5>
-                    
-                    </div>
-                  </div>
-                  <div class="overlay" id="overlay-github">
-                    <div class="popup" id="popup-github">
-                      <a href="#" id="btn-cerrar-popup-3" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                      <h3>Contacto</h3>
-                      <h5>Correo: alvarezjeremy50@gmail.com <br>
-                         Github: <a href="https://github.com/Jeremy845">https://github.com/Jeremy845</a>
-                         <br>
-                         Correo UCR: yeremy.alvarez@ucr.ac.cr <br>
-                         Instagram: @jere.ago
-                        </h5>
-                    
-                    </div>
-                  </div>
-              
+      </div>
+    </div>
 
 
-               </section>
-               <script src="../JS/functions.js"></script>
+
+  </section>
+  <script src="../JS/functions.js"></script>
 </body>
+
 </html>

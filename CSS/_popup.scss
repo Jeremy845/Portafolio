@@ -1,8 +1,11 @@
 /* ------------------------- */
-        /* POPUP */
+/* POPUP */
 /* ------------------------- */
-$font_title:  'Bangers', cursive;
-$font_type: 'Roboto Mono', monospace;
+$font_title: 'Bangers',
+cursive;
+$font_type: 'Roboto Mono',
+monospace;
+
 .overlay {
 	background: rgba(0, 0, 0, .3);
 	position: fixed;
@@ -52,8 +55,8 @@ $font_type: 'Roboto Mono', monospace;
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 10px;
-    opacity: 0;
-    text-align: center;
+	opacity: 0;
+	text-align: center;
 }
 
 .popup h5 {
@@ -112,6 +115,3 @@ $font_type: 'Roboto Mono', monospace;
 		opacity: 1;
 	}
 }
-
-
-
